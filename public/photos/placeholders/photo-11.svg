@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#302824"/><stop offset="1" stop-color="#793D4A"/></linearGradient>
+<radialGradient id="g0" cx="68.27894802823613%" cy="34.279510564766596%" r="25.367031016092294%"><stop offset="0" stop-color="#793D4A" stop-opacity="0.75"/><stop offset="1" stop-color="#793D4A" stop-opacity="0"/></radialGradient><radialGradient id="g1" cx="32.38057492644553%" cy="20.32278876999523%" r="25.055428654912593%"><stop offset="0" stop-color="#B98687" stop-opacity="0.6"/><stop offset="1" stop-color="#793D4A" stop-opacity="0"/></radialGradient><radialGradient id="g2" cx="58.17880623190608%" cy="31.196339645514424%" r="50.94021108045253%"><stop offset="0" stop-color="#793D4A" stop-opacity="0.45"/><stop offset="1" stop-color="#793D4A" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#302824" stop-opacity="0.55"/></radialGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.45  0 0 0 0 0.4  0 0 0 0.35 0"/></filter>
+</defs>
+<rect width="1200" height="1500" fill="url(#bg)"/>
+<rect width="1200" height="1500" fill="url(#g0)"/><rect width="1200" height="1500" fill="url(#g1)"/><rect width="1200" height="1500" fill="url(#g2)"/>
+<rect width="1200" height="1500" fill="url(#vig)"/>
+<rect width="1200" height="1500" filter="url(#grain)" opacity="0.55"/>
+<rect x="60" y="60" width="1080" height="1380" fill="none" stroke="#F4EFE6" stroke-opacity="0.28" stroke-width="2"/>
+<g font-family="Georgia, 'Cormorant Garamond', serif" fill="#F4EFE6">
+<text x="100" y="1330" font-size="120" font-style="italic" opacity="0.55">11</text>
+</g>
+<g font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#F4EFE6" opacity="0.5" letter-spacing="4">
+<text x="100" y="1385">PHOTO PLACEHOLDER · replace in src/content/story.ts</text>
+<text x="90" y="110">AE · 11</text><text x="1110" y="110" text-anchor="end">KODAK PORTRA 400 · 11A</text>
+</g>
+</svg>
